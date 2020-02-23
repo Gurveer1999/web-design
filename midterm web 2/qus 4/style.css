@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav, #footer{
+    width:100%;
+    float: left;
+    }
+#footer{
+    background: red;
+    height: 10rem;
+}
+#nav{
+    height: 15rem;
+    background: green;
+}
+
+#item1, #item3 {
+    width: 20%;
+    float: left;
+    background: lightslategray;
+    height: 20rem;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    #nav, #item1, #item2, #item3, #footer{
+        width: 100%;
+    }
+}

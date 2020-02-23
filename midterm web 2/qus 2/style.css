@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 900px;
+    height: 300px;
+    background:lightgreen;
+    border: 1px solid black;
+    margin: 0 ;
+    text-align: center;
+}
+.second{
+    display: flex;
+    padding:0;/* padding: 10px; */
+}
+.second .a{
+    border-right:5px solid red ;
+}
+.second .b{
+    border-right:5px solid red ;
+}
+.a p, .b p, .c p{
+    padding: 0 15px 0 15px;
+    margin: 0;
+    text-decoration-style:initial;
+}
