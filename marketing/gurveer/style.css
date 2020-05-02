@@ -1,0 +1,208 @@
+body{
+    /* background: #000; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background: url('https://static1.squarespace.com/static/5134cbefe4b0c6fb04df8065/t/5c0a99150ebbe8ccf43d9072/1544198424816/F1B.jpg?format=1500w');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+}
+.navigation{
+    padding-top: 20px;
+    height: 80px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    display: inline;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 60px 0 0;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    background: white;
+    padding: 10px 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0 0 30px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content a{
+    text-decoration: none;
+    color: #000;
+    background: white;
+    padding: 10px 15px;
+    width: 100px;
+    float: left;
+}
+.content span {
+    /* float: left;  */
+    display: inline;
+}
+.section-1{
+    text-align: center;
+    width: 100%;
+}
+.text{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+.section-1 h4{
+    /* width: 40%; */
+    text-align: center;
+}
+
+.text a{
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+}
+.image{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.image img{
+    width: 100%;
+}
+
+.section-2{
+    width:100%;
+    height: 80vh;
+}
+.section-2 .left{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: #333;
+    color: white;
+}
+.section-2 .right{
+    background: url('https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/10209/assets/images/pages/home-nov-18/online-stores/online-stores-desktop-2500-1000w.jpg?f49455a7a10cda8293cf306a53343a56&quot');
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.section-2 .img{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.section-2 .img img{
+    width: 100%;
+}
+
+.left h1{
+    padding: 20px 0 0 30px;
+    font-size: 40px;
+}
+.left h3{
+    padding: 100px 100px 20px 30px;
+}
+
+.left a{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    color: #fff;
+}
+.footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: lightslategray;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+}
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .col ul li {
+    color: #fff;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+}
+  
+.footer .col ul li:hover {
+    color: #999999;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+.clearfix {
+    clear: both;
+}
+.social{
+    text-align:center ;
+}
+.social img{
+    display: inline;
+    margin-left: 10px;
+    padding: 0 0 20px 0;
+}
+
